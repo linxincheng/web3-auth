@@ -4,7 +4,7 @@
   padding: 0 2rem;
 }
 
-.main {
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
 }
-
+*/
 .title {
   line-height: 1.15;
   font-size: 3rem;
@@ -29,10 +29,20 @@
 .grid {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
-.card {
+.grid a {
+  color: #0070f3;
+  cursor: pointer;
+}
+.grid a:hover {
+  opacity: 0.7;
+}
+.grid a:active {
+  opacity: 1;
+}
+/* .card {
   margin: 0.5rem;
   padding: 0.7rem;
   text-align: center;
@@ -50,7 +60,7 @@
 .card:active {
   cursor: pointer;
   background-color: #f1f1f1;
-}
+} */
 
 .footer {
   display: flex;
@@ -68,11 +78,12 @@
   align-items: center;
   flex-grow: 1;
 }
-
+/* 
 .logo {
   height: 1.5rem;
   margin-left: 0.5rem;
 }
+ */
 
 @media (max-width: 1200px) {
   .container {
